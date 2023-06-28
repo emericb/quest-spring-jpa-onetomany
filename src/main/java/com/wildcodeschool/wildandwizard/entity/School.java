@@ -51,4 +51,13 @@ public class School {
     public void setCountry(String country) {
         this.country = country;
     }
+
+    // add getter and setter for wizards
+    public List<Wizard> getWizards() {
+        return wizards;
+    }
+
+    public void setWizards(List<Wizard> wizards) {
+        this.wizards = wizards;
+    }
 }
